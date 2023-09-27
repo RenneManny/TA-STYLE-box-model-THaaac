@@ -136,6 +136,7 @@ table {
 
 body {
     line-height: 1;
+    
 }
 
 h2 {
@@ -239,6 +240,7 @@ p{
     height: 100px;
     background-color: grey;
     margin:10px;
+    box-sizing: border-box;
 }
 .child-2{
     display: inline-block;
@@ -247,4 +249,14 @@ p{
     height: 100px;
     background-color: grey;
     margin:10px;
+    box-sizing: border-box;
+}
+.child-3{
+    display: inline-block;
+    border: 1px solid black;
+    width: 180px;
+    height: 100px;
+    background-color: grey;
+    margin:10px;
+    box-sizing: border-box;
 }
