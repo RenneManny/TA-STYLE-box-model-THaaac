@@ -1,0 +1,298 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+body {
+    box-sizing: border-box;
+    line-height: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+header {
+    width: 500px;
+    margin: 0px auto;
+}
+
+h1 {
+
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3 {
+    font-size: 28px;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 22px;
+}
+h5 {
+    font-size: 18px;
+}
+
+.brdr {
+    border: 3px solid black;
+    height: 150px;
+    width: 150px;
+    margin: 12px;
+}
+
+.mrgn {
+    background-color: rgb(241, 87, 87);
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+}
+
+.myclass {
+    width: 500px;
+    margin: 50px auto;
+    border-top: 2px dotted grey;
+    padding: 20px;
+    text-align: center;
+}
+
+.padd {
+    background-color: aqua;
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    padding: 10px;
+}
+
+.con {
+    background-color: rgb(171, 232, 86);
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+    margin: 10px;
+}
+
+.mysec {
+    text-align: center;
+    /* padding-left: 15px;/ */
+}
+
+.dot1 {
+    background-color: rgb(171, 232, 86);
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    border-radius: 50%;
+
+}
+
+.dot2 {
+    background-color: aqua;
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    border-radius: 50%;
+
+}
+
+.dot3 {
+    background-color: black;
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    border-radius: 50%;
+
+}
+
+.dot4 {
+    background-color: rgb(241, 87, 87);
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    border-radius: 50%;
+
+}
+
+.mysec p {
+    display: inline-block;
+    margin-top: 12px;
+    padding-left: 16px;
+}
+
+
+
+.parent {
+    width: 600px;
+    border: 1px solid grey;
+    /* display: inline-block; */
+    margin: 50px auto;
+    padding: 10px 10px 0px 0;
+}
+
+
+span {
+    display: inline-block;
+    width: 180px;
+    height: 100px;
+    margin: 10px 0px 10px 10px;
+    background-color: grey;
+}
+.span{
+    /* display: inline-block; */
+    width: 180px;
+    height: 100px;
+    margin: 10px 0px 10px 10px;
+    background-color: grey;
+    border: 1px solid black;
+}
+.par {
+    width: 600px;
+    border: 1px solid grey;
+    margin: 50px auto;
+    /* display: inline-block; */
+    /* margin: 50px auto; */
+    /* padding: 10px 10px 0px 0; */
+}
+.chi{
+    border:1px solid black;
+    display: inline-block;
+    width: 180px;
+    height: 100px;
+    margin: 10px;
+
+}
+.myclass1{
+    width: 500px;
+margin: 50px auto;
+border-top: 2px dotted grey;
+padding: 20px;
+}
